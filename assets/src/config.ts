@@ -1,3 +1,4 @@
+//di min;1502457
 //
 export default {
   apiGateway: {
