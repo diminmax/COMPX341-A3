@@ -15,6 +15,7 @@ else
     exit
 fi
 
+#if apllication has issues, we can catch error here, and exit pipeline
 echo "<2> build (compiling the application)"
 if npm run build; then
     echo "build successful"
